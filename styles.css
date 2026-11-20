@@ -1,11 +1,8 @@
-
 @font-face{font-family:'Eyesome Script';src:url("assets/fonts/eyesome-script.ttf") format("truetype");font-weight:400;font-style:normal}
 @font-face{font-family:'Better Saturday';src:url("assets/fonts/better-saturday-1.ttf") format("truetype");font-style:normal;font-weight:400;unicode-range:U+0020,U+0026,U+002E,U+0030-0032,U+0034,U+0037,U+0045,U+0056,U+0061,U+0065,U+006C,U+006D,U+006E,U+0073,U+0075,U+00A0}
 @font-face{font-family:'Better Saturday';src:url("assets/fonts/better-saturday-2.ttf") format("truetype");font-style:normal;font-weight:400;unicode-range:U+0020,U+002C,U+0042,U+0043,U+0047,U+0050,U+0053,U+0054,U+0061,U+0063-0065,U+0067-0069,U+006C-006D,U+006E,U+006F,U+0072,U+0074,U+0075,U+00A0}
 @font-face{font-family:'Better Saturday';src:url("assets/fonts/better-saturday-3.ttf") format("truetype");font-style:normal;font-weight:400;unicode-range:U+0020,U+0047,U+0061,U+0063-0065,U+0067-0069,U+006E,U+006F,U+0070-0074,U+0075,U+007A,U+00A0}
 :root{--bg:#f7fafd;--bg2:#e6eef7;--card:#ffffff;--text:#4a4f57;--accent:#6f93c4;--accent2:#3f6aa3;--line:#c9d8ea;--leaf:#a9c3b4;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121a26;--bg2:#18232f;--card:#1b2735;--text:#d5dde8;--accent:#8fb0dc;--accent2:#a9c4e8;--line:#2f4259;--leaf:#4d6a5c;color-scheme:dark}}
-:root[data-theme="dark"]{--bg:#121a26;--bg2:#18232f;--card:#1b2735;--text:#d5dde8;--accent:#8fb0dc;--accent2:#a9c4e8;--line:#2f4259;--leaf:#4d6a5c;color-scheme:dark}
 *,*::before,*::after{box-sizing:border-box}
 html{scroll-behavior:smooth;scroll-padding-top:calc(64px + env(safe-area-inset-top,0px))}
 body{margin:0;background:var(--bg);color:var(--text);font-family:'Cormorant Garamond',Georgia,serif;font-size:1.25rem;line-height:1.6;letter-spacing:.02em}
@@ -196,7 +193,7 @@ dialog.photo-dialog .photo-close{position:absolute;top:-6px;right:-6px;z-index:5
 }
 @media (min-width:641px){
 .hero{padding-top:clamp(9rem,16vw,12rem)}
-.hero h1{font-size:clamp(3.4rem,7vw,5.5rem);line-height:1.15;padding:0}
+.hero h1{font-size:clamp(3.4rem,7vw,5.5rem);line-height:1.4;padding:0}
 .hero .date{margin:.5rem 0}
 .hero .sub{margin:.6rem 0}
 .hero .count{margin-top:1.5rem}
