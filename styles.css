@@ -199,3 +199,8 @@ dialog.photo-dialog .photo-close{position:absolute;top:-6px;right:-6px;z-index:5
 .hero .count{margin-top:1.5rem}
 .hero .btn{margin-top:1.25rem}
 }
+/* finestra stretta in orizzontale (tablet / desktop rimpicciolito) */
+@media (min-width:641px) and (max-width:1200px){
+.flower{width:min(46vw,480px);top:calc(min(46vw,480px)*-.27);left:calc(min(46vw,480px)*-.18)}
+.hero{padding-top:calc(min(46vw,480px)*.55 + 2rem)}
+}
