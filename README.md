@@ -26,7 +26,7 @@ La pagina iniziale è `index.html`, come richiesto da GitHub Pages per la cartel
 - `index.html`: contenuti della pagina.
 - `styles.css`: stili e layout.
 - `script.js`: conto alla rovescia, link WhatsApp, copia dell'IBAN e galleria.
-- `assets/`: font, illustrazioni e fotografie.
+- `assets/`: font, illustrazioni e fotografie. La mappa interattiva dell'itinerario è in `assets/images/thailand-map.svg`, con la relativa immagine WebP.
 
 ## Prima di pubblicare
 
