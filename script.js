@@ -29,19 +29,6 @@
   tick();
   setInterval(tick, 1000);
 
-  var message = encodeURIComponent(
-    'Ciao! Confermo la presenza al vostro matrimonio del 17 aprile 2027.\n' +
-      'Numero di persone (adulti/bambini): \n' +
-      'Allergie o intolleranze: \n' +
-      'Interessati al pernottamento: '
-  );
-  var rsvpEmanuele = document.getElementById('rsvpE');
-  var rsvpVanessa = document.getElementById('rsvpV');
-  rsvpEmanuele.href = 'https://wa.me/393661879071?text=' + message;
-  rsvpVanessa.href = 'https://wa.me/393454228276?text=' + message;
-  rsvpEmanuele.target = rsvpVanessa.target = '_blank';
-  rsvpEmanuele.rel = rsvpVanessa.rel = 'noopener';
-
   var copyButton = document.getElementById('copy');
   copyButton.addEventListener('click', function () {
     var iban = document.getElementById('iban').textContent;

@@ -55,6 +55,27 @@ body {
   line-height:1.75;
   letter-spacing:.01em;
 }
+.skip-link {
+  position:fixed;
+  top:calc(env(safe-area-inset-top,0px) + 1rem);
+  left:1rem;
+  z-index:40;
+  padding:.65rem 1rem;
+  border:2px solid var(--accent2);
+  border-radius:999px;
+  background:var(--card);
+  color:var(--text);
+  font-weight:700;
+  text-decoration:none;
+  transform:translateY(calc(-100% - 1rem));
+}
+.skip-link:focus {
+  transform:translateY(0);
+}
+:focus-visible {
+  outline:3px solid var(--accent2);
+  outline-offset:3px;
+}
 body::before {
   content:"";
   position:fixed;
